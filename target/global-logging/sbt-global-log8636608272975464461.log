@@ -1,0 +1,122 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(early(addDefaultCommands), None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(addDefaultCommands, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(early(initialize), None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(initialize, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(boot, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(writeSbtVersion, None, None)[0m
+[0m[[0m[0minfo[0m] [0m[0mUpdated file C:\Projects\FreeMedia\project\build.properties: set sbt.version to 1.7.2[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(reload, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(sbtStashOnFailure, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(onFailure loadFailed, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(loadp, None, None)[0m
+[0m[[0m[0minfo[0m] [0m[0mwelcome to sbt 1.7.2 (Oracle Corporation Java 11.0.18)[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.loadUnit: plugins took 227.3123ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.loadUnit: defsScala took 0.5743ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Scanning directory C:\Users\Siddh\.sbt\1.0\plugins[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Found non-root projects [0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Done in C:\Users\Siddh\.sbt\1.0\plugins, returning: ()[0m
+[0m[[0m[0mdebug[0m] [0m[0mdeducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))[0m
+[0m[[0m[0mdebug[0m] [0m[0m  :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)[0m
+[0m[[0m[0mdebug[0m] [0m[0mPlugins.deducer#function took 38.9453 ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m          Load.resolveProject(global-plugins) took 94.4365ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m        Load.loadTransitive: finalizeProject(Project(id global-plugins, base: C:\Users\Siddh\.sbt\1.0\plugins, plugins: List(<none>))) took 183.3937ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Done in C:\Users\Siddh\.sbt\1.0\plugins, returning: (global-plugins)[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.loadUnit: loadedProjectsRaw took 224.3087ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.loadUnit: cleanEvalClasses took 0.5582ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Load.loadUnit(file:/C:/Users/Siddh/.sbt/1.0/plugins/, ...) took 473.1855ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Load.apply: load took 775.6162ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Load.apply: resolveProjects took 12.2879ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Load.apply: finalTransforms took 106.1342ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Load.apply: config.delegates took 13.2502ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Load.apply: Def.make(settings)... took 618.3502ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Load.apply: structureIndex took 169.4359ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Load.apply: mkStreams took 1.98ms[0m
+[0m[[0m[0minfo[0m] [0m[0mloading global plugins from C:\Users\Siddh\.sbt\1.0\plugins[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mLoad.defaultLoad until apply took 8866.7407ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m          Load.loadUnit: plugins took 64.8708ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m          Load.loadUnit: defsScala took 0.0118ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Scanning directory C:\Projects\FreeMedia\project[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Found non-root projects [0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Done in C:\Projects\FreeMedia\project, returning: ()[0m
+[0m[[0m[0mdebug[0m] [0m[0mdeducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))[0m
+[0m[[0m[0mdebug[0m] [0m[0m  :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)[0m
+[0m[[0m[0mdebug[0m] [0m[0mPlugins.deducer#function took 2.6919 ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m              Load.resolveProject(freemedia-build) took 2.3718ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m            Load.loadTransitive: finalizeProject(Project(id freemedia-build, base: C:\Projects\FreeMedia\project, plugins: List(<none>))) took 5.854ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Done in C:\Projects\FreeMedia\project, returning: (freemedia-build)[0m
+[0m[[0m[0mdebug[0m] [0m[0m          Load.loadUnit: loadedProjectsRaw took 9.3844ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m          Load.loadUnit: cleanEvalClasses took 0.0186ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m        Load.loadUnit(file:/C:/Projects/FreeMedia/project/, ...) took 76.1564ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: load took 79.1624ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: resolveProjects took 0.2154ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: finalTransforms took 18.0976ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: config.delegates took 0.6249ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: Def.make(settings)... took 113.9821ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: structureIndex took 40.9888ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: mkStreams took 0.0047ms[0m
+[0m[[0m[0minfo[0m] [0m[0mloading project definition from C:\Projects\FreeMedia\project[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Load.loadUnit: plugins took 901.6358ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Load.loadUnit: defsScala took 0.006ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Scanning directory C:\Projects\FreeMedia[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Found non-root projects [0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Done in C:\Projects\FreeMedia, returning: ()[0m
+[0m[[0m[0mdebug[0m] [0m[0mdeducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))[0m
+[0m[[0m[0mdebug[0m] [0m[0m  :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)[0m
+[0m[[0m[0mdebug[0m] [0m[0mPlugins.deducer#function took 3.0227 ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m        Load.resolveProject(freemedia) took 2.2562ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.loadTransitive: finalizeProject(Project(id freemedia, base: C:\Projects\FreeMedia, plugins: List(<none>))) took 6.0794ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Done in C:\Projects\FreeMedia, returning: (freemedia)[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Load.loadUnit: loadedProjectsRaw took 8.4424ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Load.loadUnit: cleanEvalClasses took 0.0205ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Load.loadUnit(file:/C:/Projects/FreeMedia/, ...) took 910.8828ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mLoad.apply: load took 914.7833ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mLoad.apply: resolveProjects took 0.2712ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mLoad.apply: finalTransforms took 16.1258ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mLoad.apply: config.delegates took 0.5194ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mLoad.apply: Def.make(settings)... took 100.8137ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mLoad.apply: structureIndex took 44.4535ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mLoad.apply: mkStreams took 0.0053ms[0m
+[0m[[0m[0minfo[0m] [0m[0mset current project to freemedia (in build file:/C:/Projects/FreeMedia/)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(sbtPopOnFailure, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(resumeFromFailure, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(notifyUsersAboutShell, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(iflast shell, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[0minfo[0m] [0m[0msbt server started at local:sbt-server-4583d0b7f81997f112b3[0m
+[0m[[0m[0mdebug[0m] [0m[0mWriting bsp connection file[0m
+[0m[[0m[0minfo[0m] [0m[0mstarted sbt server[0m
